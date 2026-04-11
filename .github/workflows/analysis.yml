@@ -13,7 +13,7 @@ jobs:
 
       - name: Run analysis script
         run: |
-          ls -R          # Tämä listaa kaikki tiedostot lokiin
+          ls -R          # kaikki tiedostot lokiin
           chmod +x analysoi.sh
           ./analysoi.sh
 
